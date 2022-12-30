@@ -14,7 +14,6 @@ public class BranchExample {
 					System.out.println(); // 여기다 써야 5까지 출력하고 멈춤, 출력문 위치 중요
 					break; // 반복문을 멈춤  // break하고나면 바로 for문을 빠져나가니까 
 				}
-				
 			}
 	   }
 		
@@ -52,7 +51,6 @@ public class BranchExample {
 				}
 				System.out.println(i + "출력");
 			}
-
 		}
 		
 		public void ex4() {
@@ -72,4 +70,4 @@ public class BranchExample {
 				System.out.println(i + "출력");
 			}
 		}
-}
+	}

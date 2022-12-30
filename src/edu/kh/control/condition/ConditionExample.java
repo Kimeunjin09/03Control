@@ -118,9 +118,6 @@ public class ConditionExample { //기능 정의용 클래스
 		} else {
 			System.out.println("청소년 입니다.");
 		} */
-		
-		
-		
 	}
 	
 	public void ex5() {
@@ -173,7 +170,6 @@ public class ConditionExample { //기능 정의용 클래스
 				System.out.println(result);	//결과값을 초기화해줘야함		
 	}*/
 		
-
 		public void ex6() {
 			// 놀이기구 탑승 제한 검사 프로그램
 			// 조건 - 나이: 12세 이상, 키: 140.0cm 이상
@@ -209,9 +205,7 @@ public class ConditionExample { //기능 정의용 클래스
 					}else if(age >= 12 || height > 140.0) {
 						System.out.println("탑승 가능");
 					}
-						
 				}
-				 
 			
 				/*Scanner sc = new Scanner(System.in);
 				
@@ -240,10 +234,8 @@ public class ConditionExample { //기능 정의용 클래스
 				    	result = "탑승 가능";
 				    }
 				}	
-					
 			}
 				System.out.println(result); */
-			
+			}
 		}
- }
-}		
+	}		

@@ -7,16 +7,14 @@ public class ConditionRun { //기능 실행용 클래스
 		
 		ConditionExample condition = new ConditionExample();
 		
-		//condition.ex1();
-		//condition.ex2();
-		//condition.ex3();
-		//condition.ex4();
-		//condition.ex5();
-		//condition.ex6();
+		condition.ex1();
+		condition.ex2();
+		condition.ex3();
+		condition.ex4();
+		condition.ex5();
+		condition.ex6();
 		
-		// SwitchExample switchEx = new  SwitchExample();
-		// switchEx.ex1();
-		
+		 SwitchExample switchEx = new  SwitchExample();
+		 switchEx.ex1();
 	}
-
 }

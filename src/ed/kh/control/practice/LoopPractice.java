@@ -7,6 +7,7 @@ import java.util.Scanner;
 public class LoopPractice {
 	
 	Scanner sc = new Scanner(System.in);
+	private int row;
 	
 	public void practice9(){
 		

@@ -43,13 +43,11 @@ public class WhileExample {
 				case 9 : System.out.println("키오스크를 종료합니다!"); break;
 				default : System.out.println("잘못 입력했어요~!");
 				}
-				
-				
 			}
 	  }
 		
-		
 		public void ex2() {
+			
 			// 입력되는 모든 정수의 합 구하기, 사용자가 입력하는 값마다 더해라
 			// 단, 0이 입력되면 반복 종료 후 결과 출력
 			         // -> 0이 입력 되지 않으면 계속 반복
@@ -59,7 +57,6 @@ public class WhileExample {
 			 * 정수 입력 : 1
 			 * 정수 입력 : 0
 			 * 합계 : 6
-			 * 
 			 */
 			
 			Scanner sc = new Scanner(System.in);
@@ -74,8 +71,6 @@ public class WhileExample {
 			}    //sum += --> sum + input
 			
 			System.out.println("합계: " + sum);
-		
-			
 		}
 		
 		public void ex3() {
@@ -99,17 +94,13 @@ public class WhileExample {
 					
 					sum += i;
 					i++; // input까지 달릴려면 증감해야한다..?
-					
 				}
 				
 				System.out.println("1부터" + input + "까지의 합은" + sum + "입니다.");
 				
-				
 			}else {
 				System.out.println("1이상의 숫자를 입력하세요");
 			}
-			
-			
 		}
 		
 		public void ex4() {

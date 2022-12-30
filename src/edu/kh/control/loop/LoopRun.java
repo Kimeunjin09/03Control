@@ -6,26 +6,21 @@ public class LoopRun {
 		
 		ForExample forEx = new ForExample();
 		
-		//forEx.ex1();
-		//forEx.ex2();
-		//forEx.ex3();
-		//forEx.ex4();
-		//forEx.ex7();
-		//forEx.ex8();
-		//forEx.ex9();	
-		//forEx.ex10();
-		//forEx.ex11();
-		//forEx.ex12();
+		forEx.ex1();
+		forEx.ex2();
+		forEx.ex3();
+		forEx.ex4();
+		forEx.ex7();
+		forEx.ex8();
+		forEx.ex9();	
+		forEx.ex10();
+		forEx.ex11();
+		forEx.ex12();
 		
 		WhileExample WhileEx = new WhileExample();
-		//WhileEx.ex1();
-		//WhileEx.ex2();
-		//WhileEx.ex3();
-		//WhileEx.ex4();
-		
-
-		
-
+		WhileEx.ex1();
+		WhileEx.ex2();
+		WhileEx.ex3();
+		WhileEx.ex4();
 	}
-
 }

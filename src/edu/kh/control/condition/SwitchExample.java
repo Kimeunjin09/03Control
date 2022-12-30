@@ -5,6 +5,8 @@ import java.util.Scanner;
 
 public class SwitchExample {
 	
+	private static final int case3 = 0;
+
 	/*
 	 * switch문
 	 * - 식 하나의 결과로 많은 경우의 수를 처리할 때 사용하는 조건문.
@@ -21,8 +23,6 @@ public class SwitchExample {
 	 * default : case를 모두 만족하지 않을 경우 수행하는 코드 (== else)
 	 * 
 	 * }
-	 * 
-	 * 
 	 * */
 	
 	  public void ex1() {
@@ -50,32 +50,31 @@ public class SwitchExample {
 		}
 		
 		System.out.println(result);
-		
 	} 
 		
 	/*public void ex2() {
 		//달 입력 시 계절 완성 (switch 버전)
+		// 달(month)를 입력받아 해당 달에 맞는 계절 출력
 		
 		Scanner sc = new Scanner(System.in);
+		
 		System.out.print("달 입력: ");
 		int month = sc.nextInt();
 		
-		String result;
+		String season;
 		
 		switch(month) {
-		case3: case4: case5: result = "봄"; break;
-		case6: case7: case8: result = "여름"; break;
-		case9: case10: case11: result = "가을"; break;
-		case12: case1: case2: result = "겨울"; break;
-		default : result = "잘못 입력";
+		case3: case4: case5: season = "봄"; break;
+		case6: case7: case8: season = "여름"; break;
+		case9: case10: case11: season = "가을"; break;
+		case12: case1: case2: season = "겨울"; break;
+		default : season = "해당하는 계절 없음";
 		}
 		
-		System.out.println(result);
+		System.out.println(season);
 	} */
 	
-	
-	
-	/*public void ex3() {
+	public void ex3(){
 		
 		// 연산자 ( + - * / % ) -> String으로 받기
 		// 정수 1: 5
@@ -84,6 +83,7 @@ public class SwitchExample {
 		// 계산결과 : 5 * 10 = 50
 		
 		Scanner sc = new Scanner(System.in);
+		
 		System.out.print("정수 1: ");
 		int num1 = sc.nextInt();
 		
@@ -96,17 +96,24 @@ public class SwitchExample {
 		String result;
 		
 		switch(op) {
-		case "+" : result = System.print.out( "%d" + %d + %d\n , num1, num2, num1 + num2();
+		case "+": System.out.printf("%d + %d = %d\n", num1, num2, num1 + num2);
 		break;
-		case "/" :
+		
+		case "-": System.out.printf("%d - %d = %d\n", num1, num2, num1 - num2);
+		break;
+		
+		case "*": System.out.printf("%d * %d = %d\n", num1, num2, num1 * num2);
+		break;
+		
+		case "/": 
 			if(num2 == 0) {
-				 System.printf( %d / %d = %d\n)
-				
+				System.out.println("0으로 나눌 수 없습니다");
+			} else {
+				System.out.printf("%d / %d = %d\n", num1, num2, num1 / num2);
 			}
-		} 
+			break;	
 		
-		
-		
-	} */
-		
-	}
+		case "%": System.out.printf("%d % %d = %d\n", num1, num2, num1 % num2);
+		}
+	}	
+}
