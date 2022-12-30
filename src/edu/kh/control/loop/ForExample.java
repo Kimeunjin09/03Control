@@ -71,8 +71,6 @@ public class ForExample {
 	
 			System.out.println("출력: " + i);
 		}
-		
-		
 	}
 	
 	public void ex7() {
@@ -173,7 +171,6 @@ public class ForExample {
 				
 				System.out.println(); // 줄바꿈 
 			}
-			
 		} 
 		
 		public void ex13() {
@@ -197,7 +194,6 @@ public class ForExample {
 				System.out.println(); // 줄바꿈 
 			}
 		
-		
 			//역순
 		
 			for(int x =4; x >= 1; x--) {
@@ -210,7 +206,4 @@ public class ForExample {
 			}
 		
 		}	
-		
-			
-			
  }	
